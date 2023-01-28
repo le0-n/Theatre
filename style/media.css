@@ -1,3 +1,8 @@
+/* ----------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/*-------------------------------- 768px --------------------------------*/
+/* -------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
 @media screen and (max-width: 768px) {
     .container .nav .menu {
         display: none;
@@ -147,5 +152,111 @@
     .container .content-6 .submit {
         bottom: 60px;
         left: 64%;
+    }
+}
+/* ----------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/*-------------------------------- 425px --------------------------------*/
+/* -------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+@media screen and (max-width: 425px) {
+    .container .nav .number {
+        width: 27%;
+        font-size: 12px;
+        left: 70%;
+    }
+    .container .nav .bx {
+        font-size: 35px;
+        bottom: 35px;
+    }
+    .container .nav .burger_menu {
+        width: 60%;
+        left: -60%;
+        height: 42rem;
+        gap: 4%;
+    }
+    .container .nav .burger_menu .icons1 a i {
+        font-size: 50px;
+    }
+    .container .nav .burger_menu .icons2 a i {
+        font-size: 50px;
+    }
+    .container .c1 ul li:nth-child(2) {
+        padding: 0 8%;
+    }
+    .container .c1 ul li:nth-child(2) h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .container .c1 ul li:nth-child(2) h3 {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .container .c2 {
+        margin-top: 10%;
+        height: 40rem;
+    }
+    .container .c2 ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .container .c2 ul li {
+        width: 500px;
+        height: 250px;
+        padding-right: 40%;
+    }
+    .container .c2 ul li:nth-child(2) {
+        padding-right: 45%;
+        margin-top: 3%;
+    }
+    .container .c2 ul li h2 {
+        margin-bottom: 0%;
+    }
+    .container .content-4 .content ul:nth-child(1) li {
+        font-size: 40px;
+        line-height: 80px;
+    }
+    .container .content-4 .content ul:nth-child(2) li {
+        font-size: 25px;
+    }
+    .container .content-4 .content ul:nth-child(2) li img {
+        width: 100%;
+    }
+    .container .content-5 .head h1 {
+        font-size: 35px;
+    }
+    .container .content-6 .head h1 {
+        font-size: 35px;
+    }
+    .container .content-6 .content {
+        position: relative;
+        height: 10rem;
+        margin-top: 0;
+    }
+    .container .content-6 .content ul:nth-child(1) {
+        position: absolute;
+        top: 80%;
+        right: 43%;
+    }
+    .container .content-6 .content ul:nth-child(1) li {
+        font-size: 13px;
+        line-height: 13px;
+
+    }
+    .container .content-6 .inf {
+        display: none;
+    }
+    .container .content-6 .submit {
+        width: 140px;
+        height: 40px;
+        font-size: 15px;
+        top: -20px;
+        right: 0;
+    }
+    .container .footer {
+        padding: 1.5% 1.5%;
+    }
+    .container .footer p {
+        font-size: 10px;
     }
 }
