@@ -172,7 +172,7 @@
     .container .nav .burger_menu {
         width: 60%;
         left: -60%;
-        height: 42rem;
+        height: 47.5rem;
         gap: 4%;
     }
     .container .nav .burger_menu .icons1 a i {
@@ -180,6 +180,9 @@
     }
     .container .nav .burger_menu .icons2 a i {
         font-size: 50px;
+    }
+    .container .c1 {
+        height: 40rem;
     }
     .container .c1 ul li:nth-child(2) {
         padding: 0 8%;
